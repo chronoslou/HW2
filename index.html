@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio Page</title>
     <!--Added external CSS file-->
-    <link rel="stylesheet" href="Assets/styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <!--header for dev name-->
     <header class="devname">
         <h1>Louis Falla</h1>
-    </header>
         <!--nav bar-->
         <nav>
         <!--links in the bar that float to the right-->
@@ -28,88 +28,92 @@
                 <li><a href="#resume">Resume</a></li>
             </ul>
         </nav>
-    <!--Section1-->
+    </header>
+    <!--Section with image banner and subtitle-->
     <section>
     <!--image background 1-->
-        <img src="Assets/DATA-SCIENCE2-1.jpg" alt="placeholder1">
-            <!-- Subtitle placeholder-->
-            <h2>Subtitle Placeholder</h2>
+        <h2 class=subtitle>Subtitle Placeholder</h2>
+        <img class= heroimage src="Assets/DATA-SCIENCE2-1.jpg" alt="placeholder1">
     </section>
-    <!--Section 2-->
+    <!--Section 2 for about me-->
     <section>
         <!--Aside tag about me title-->
         <aside>
             <!--heading about me-->
-            <h1 id="AboutMe">About Me</h1>
-                <div class="divider one"></div>
+            <h1 id="aboutme">About Me</h1>
         </aside>
-            <!--Article about me-->
-            <article>
-                <p>Proactive, persevering, detail and result-oriented professional with over 10 years of proven leadership and teamwork skills. Effective communicator with the ability to coordinate cross-functional teams efficiently to accomplish challenging objectives and meet critical deadlines in a fast-paced environment. Proven record to consistently exceed goals and an excellent ability to learn quickly. Strong analytical, customer building relationship, conflict resolution and multi-tasking skills. BBA in Marketing, MBA in Management and Post Masters' degree in International Business with substantial experience in Direct Marketing, CRM, Operations, International Import and Export management, Social Media and Management. Bilingual English and Spanish.</p>
-                    <h4>Skills</h4>
-                        <p>Technical: Proficiency in Microsoft Excel, Word, PowerPoint, Outlook, Project, Mac OS, iWork Pages, Numbers, Keynote, PeopleSoft, implementations, Google Analytics, Adobe Photoshop, Agile, Waterfall & Kanban methodologies, QlikView, CyberSource, Confluence, JIRA,Zendesk, Hootsuite, Salesforce, Pentaho, Commerce Cloud, Shopify, Magento, knowledge of SQL Server, HTML, CSS and JavaScript.</p>
-            </article>
+        <!--article about work/summary-->
+        <article>
+            <p>Proactive, persevering, detail and result-oriented professional with over 10 years of proven leadership and teamwork skills. Effective communicator with the ability to coordinate cross-functional
+                teams efficiently to accomplish challenging objectives and meet critical deadlines in a fast-paced environment. Proven record to consistently exceed goals and an excellent ability to learn quickly,strong analytical, customer building relationship, conflict resolution and multi-tasking skills. BBA in Marketing, MBA in Management and Post Masters' degree in International Business with
+                substantial experience in Direct Marketing, CRM, Operations, International Import and Export management, Social Media and Management. Bilingual English and Spanish.
+                <h4>Skills</h4>
+                    <p>Technical: Proficiency in Microsoft Excel, Word, PowerPoint, Outlook, Project, Mac OS, iWork Pages, Numbers, Keynote, PeopleSoft, implementations, Google Analytics, Adobe Photoshop, Agile, Waterfall & Kanban methodologies, QlikView, CyberSource, Confluence, JIRA,Zendesk, Hootsuite, Salesforce, Pentaho, Commerce Cloud, Shopify, Magento, knowledge of SQL Server, HTML, CSS and JavaScript.</p>
+        </article>
+    </section>
+    <!--Section 3 about work with big immage-->
+    <section>
         <aside>
         <!--Aside tag about work-->
-            <h1>Work</h1>
-                <div class="divider two"></div>
+            <h1 id="aboutwork">Work</h1>
         </aside>
             <!--Hero image-->
-            <article>
-                <!--Article Tag Hero image about the image-->
-                <img src="Assets/Placeholder2.jpg" alt="placeholder2">
-                    <div class="title for placeholder2"></div>
-            </article>
-            <article>
-                <!--Talbe for the 4 languages-->
-                <table>
-                    <!--first row-->
-                    <row>
-                        <div>
-                            <!--placeholder for image 3-->
-                            <img src="Assets/data-analysis-blog.jpg" alt="placeholder3">
-                            <!--title for image-->
-                            <div class="title for placeholder2"></div>
-                        </div>
-                        <div>
-                            <!--placeholder for image 4-->
-                            <img src="Assets/XbYnCuVzbcHPHuYzCGuSmf-1024-80.jpg.webp" alt="placeholder4">
-                            <!--title for image-->
-                            <div class="title for placeholder2"></div>
-                        </div>
-                    </row>
-                    <row>
-                    <!--2nd row-->
-                        <div>
-                            <!-- placeholder for image 5-->
-                            <img src="Assets/download (1).jpeg" alt="placeholder5">
-                            <!--title for image-->
-                            <div class="title for placeholder2"></div>
-                        </div>
-                        <div>
-                            <!--placeholder for image 6-->
-                            <img src="Assets/download.jpeg" alt="placeholder6">
-                            <!--title for image-->
-                            <div class="title for placeholder2"></div>
-                        </div>
-                    </row>
-                </table>
-            </article>
-         <aside>
+        <article>
+            <!--Article Tag Hero image about the image-->
+            <div class="titleplaceholder2"></div>
+            <img class=hero src="Assets/Placeholder2.jpg" alt="placeholder2">
+        </article>
+    </section>
+
+    <section>
+        <article>
+            <!--Talbe for the 4 languages-->
+            <table>
+                <!--first row-->
+                <tr>
+                    <th>
+                        <!--placeholder for image 3-->
+                        <!--title for image-->
+                        <div class="title for placeholder2"></div>
+                        <img class=image3 src="Assets/data-analysis-blog.jpg" alt="placeholder3">
+                    </th>
+                    <th>
+                        <!--placeholder for image 4-->
+                        <!--title for image-->
+                        <div class="title for placeholder2"></div>
+                        <img class=image4 src="Assets/XbYnCuVzbcHPHuYzCGuSmf-1024-80.jpg.webp" alt="placeholder4">
+                    </th>
+                </tr>
+                <tr>
+                    <th>
+                        <!--2nd row-->
+                        <!-- placeholder for image 5-->
+                        <div class="title for placeholder2"></div>
+                        <img class=image5 src="Assets/download (1).jpeg" alt="placeholder5">
+                    </th>
+                <tr>
+                    <th>
+                        <!--placeholder for image 6-->
+                        <!--title for image-->
+                        <div class="title for placeholder2"></div>
+                        <img class=image6 src="Assets/download.jpeg" alt="placeholder6">
+                    </th> 
+                </tr>
+            </table>
+        </article>
+    </section>
+    <section>
+        <aside>
              <!--Contact Me section-->
-             <h1>Contact Me</h1>
-                <!--divider-->
-                <div class="divider 3"></div>
-                    <div>
-                        <!--List of contacts-->
-                        <ul>
-                            <li><a href="tel:9142824081">914-282-4081</a></li>
-                            <li><a href="mailto:lfalla3892@gmail.com">Lfalla3892@gmail.com</a></li>
-                            <li><a href="https://github.com/chronoslou?tab=repositories">GitHub</a></li>
-                            <li><a href="https://twitter.com/falla_lou?lang=en">Twitter</a></li>
-                            <li><a href="https://music.apple.com/profile/lou3892">Apple Music</a></li>
-                        </ul>
-                    </div>
+             <h1 class=Footer>Contact Me</h1>
+                <!--List of contacts-->
+                <ul>
+                    <li><a href="tel:9142824081">914-282-4081</a></li>
+                    <li><a href="mailto:lfalla3892@gmail.com">Lfalla3892@gmail.com</a></li>
+                    <li><a href="https://github.com/chronoslou?tab=repositories">GitHub</a></li>
+                    <li><a href="https://twitter.com/falla_lou?lang=en">Twitter</a></li>
+                    <li><a href="https://music.apple.com/profile/lou3892">Apple Music</a></li>
+                </ul>
          </aside>           
     </section>
 </body>
