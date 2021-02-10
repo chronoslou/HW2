@@ -2,3 +2,77 @@ body {
     background-color: white;
 }
 
+header {
+      flex-wrap: wrap;
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      padding:0%;
+      background-color: #282d36;
+}
+
+nav {
+    float: right;
+    margin: auto;
+    padding: 0%;
+}
+
+nav ul {
+    color: #60a7bf;
+    text-decoration: underline;
+}
+
+section {
+    font-style: normal;
+}
+
+section img {
+    background-repeat: repeat-y;
+} 
+
+aside {
+    float: right;
+}
+            <!--heading about me-->
+            <h1 id="AboutMe">About Me</h1>
+                <div class="divider one"></div>
+        </aside>
+            <!--Article about me-->
+            <article>
+                <p>Proactive, persevering, detail and result-oriented professional with over 10 years of proven leadership and teamwork skills. Effective communicator with the ability to coordinate cross-functional teams efficiently to accomplish challenging objectives and meet critical deadlines in a fast-paced environment. Proven record to consistently exceed goals and an excellent ability to learn quickly. Strong analytical, customer building relationship, conflict resolution and multi-tasking skills. BBA in Marketing, MBA in Management and Post Masters' degree in International Business with substantial experience in Direct Marketing, CRM, Operations, International Import and Export management, Social Media and Management. Bilingual English and Spanish.</p>
+                    <h4>Skills</h4>
+                        <p>Technical: Proficiency in Microsoft Excel, Word, PowerPoint, Outlook, Project, Mac OS, iWork Pages, Numbers, Keynote, PeopleSoft, implementations, Google Analytics, Adobe Photoshop, Agile, Waterfall & Kanban methodologies, QlikView, CyberSource, Confluence, JIRA,Zendesk, Hootsuite, Salesforce, Pentaho, Commerce Cloud, Shopify, Magento, knowledge of SQL Server, HTML, CSS and JavaScript.</p>
+            </article>
+        <aside>
+        <!--Aside tag about work-->
+            <h1>Work</h1>
+                <div class="divider two"></div>
+        </aside>
+            <!--Hero image-->
+            <article>
+                <!--Article Tag Hero image about the image-->
+                <img src="Assets/Placeholder2.jpg" alt="placeholder2">
+                    <div class="title for placeholder2"></div>
+            </article>
+            <article>
+                <!--Talbe for the 4 languages-->
+table {
+    float: left;
+}
+           
+.title {
+    display: inline-block;
+
+}
+
+.class title {
+
+} 
+
+aside h1 {
+    float: left;
+}
+
+.class divider 3 {
+
+}
