@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio Page</title>
     <!--Added external CSS file-->
-    <link rel="stylesheet" type="type/css" href="Assets/css/reset.css">
-    <link rel="stylesheet" type="type/css" href="Assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
 </head>
-
 <body>
     <!--header for dev name-->
     <header class="devname">
@@ -31,13 +30,12 @@
         </nav>
     </header>
     <!--Section with image banner and subtitle-->
-    <section>
+    <section class="clearfix banner">
     <!--image background 1-->
         <h2 class="subtitle">Subtitle Placeholder</h2>
-        <img class="heroimage" src="Assets/DATA-SCIENCE2-1.jpg" alt="placeholder1">
     </section>
     <!--Section 2 for about me-->
-    <section>
+    <section class="clearfix">
         <!--Aside tag about me title-->
         <aside>
             <!--heading about me-->
@@ -53,7 +51,7 @@
         </article>
     </section>
     <!--Section 3 about work with big immage-->
-    <section>
+    <section class="clearfix">
         <aside>
         <!--Aside tag about work-->
             <h1 id="work">Work</h1>
@@ -62,12 +60,7 @@
         <article>
             <!--Article Tag Hero image about the image-->
             <div class="titleplaceholder2"></div>
-            <img class="hero" src="Assets/Placeholder2.jpg" alt="placeholder2">
-        </article>
-    </section>
-    <section>
-        <article id="imagetable">
-            <!--Talbe for the 4 languages-->
+            <figure><img class="hero" src="./Assets/Placeholder2.jpg" alt="placeholder2"></figure>
             <table class="table">
                 <!--first row-->
                 <tr>
@@ -75,13 +68,13 @@
                         <!--placeholder for image 3-->
                         <!--title for image-->
                         <div class="titleplaceholderblock"></div>
-                        <img class="image3" src="Assets/data-analysis-blog.jpg" alt="placeholder3">
+                        <figure><img class="image3" src="Assets/data-analysis-blog.jpg" alt="placeholder3"></figure>
                     </th>
                     <th>
                         <!--placeholder for image 4-->
                         <!--title for image-->
                         <div class="titleplaceholderblock"></div>
-                        <img class="image4" src="Assets/XbYnCuVzbcHPHuYzCGuSmf-1024-80.jpg.webp" alt="placeholder4">
+                        <figure><img class="image4" src="Assets/XbYnCuVzbcHPHuYzCGuSmf-1024-80.jpg.webp" alt="placeholder4"></figure>
                     </th>
                 </tr>
                 <tr>
@@ -89,20 +82,20 @@
                         <!--2nd row-->
                         <!-- placeholder for image 5-->
                         <div class="titleplaceholderblock"></div>
-                        <img class="image5" src="Assets/download (1).jpeg" alt="placeholder5">
+                        <figure><img class="image5" src="Assets/download (1).jpeg" alt="placeholder5"></figure>
                     </th>
                 <tr>
                     <th>
                         <!--placeholder for image 6-->
                         <!--title for image-->
                         <div class="titleplaceholderblock"></div>
-                        <img class="image6" src="Assets/download.jpeg" alt="placeholder6">
-                    </th> 
+                        <figure><img class="image6" src="Assets/download.jpeg" alt="placeholder6"></figure>
+                    </th>
                 </tr>
             </table>
         </article>
     </section>
-    <section>
+    <section class="clearfix">
         <aside>
              <!--Contact Me section-->
              <h1 id="contactme" class="footer">Contact Me</h1>
@@ -114,8 +107,7 @@
                     <li><a href="https://twitter.com/falla_lou?lang=en">Twitter</a></li>
                     <li><a href="https://music.apple.com/profile/lou3892">Apple Music</a></li>
                 </ul>
-         </aside>           
+         </aside>
     </section>
 </body>
-
 </html>

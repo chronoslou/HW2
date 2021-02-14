@@ -1,6 +1,23 @@
+/*General changes*/
 body {
     background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    color:dimgrey;
 }
+.clearfix::after {
+    content: "";
+    clear:both;
+    display:table;
+}
+h1 {
+    font-size: 45px;
+}
+h4 {
+    margin-top: 10px;
+}
+
+
+/* Nav Bar styling */
 header {
     top: 100px;
     list-style: none;
@@ -9,27 +26,38 @@ header {
     background-color: #464646;
     height:80px;  
 }
-
 header h1 {
     color: white;
     display: inline-block;
 }
-
 nav {
     float: right;
     margin: auto;
-    padding: 0%;
+    background-color: grey;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    bottom: 20px;
+    z-index: 1;
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: 0 50px 70px 0;
+    text-align: center;
+    padding: auto;
 }
 
-nav ul { PLACEHOLDER
+.nav-link a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
 }
 
+.nav-link a:hover + a.active {
+    text-decoration: none;
+}
 
-
-flex-box"
-image-r;
-flex-box
-addtional images 
 li{
     display: inline;
     float: right;
@@ -37,34 +65,52 @@ li{
     text-decoration: underline;
 }
 
-section img .heroimage {
-    image needs to expand and no margin
+/*Banner section*/
+.banner {
+    background-image: url("../DATA-SCIENCE2-1.jpg");
+    background-size:cover;
+    min-height: 300px;
 }
 
-h2 .subtitle {
-    needs to be in a block lined to the right
-}
-
-aside #aboutme, #work, #contactme {
+/*Styling for aside containers*/
+aside {
     float: left;
+    width: 20%;
+    margin-top: 10px;
+}
+  /*Basic styling for images*/
+article {
+    float: right;
+    border: darkslategray 5px;
+    width: 70%;
+    line-height: 20px;
+    margin-top: 10px;
 }
 
-.titleplaceholder2 {
-    float: right;
-    width: 300px;
-    height: 200px;
+/* section img .heroimage*/ 
+.hero {
+    width: 800px;
+    height: 400px;
+    margin-top: 10px;
 }
-
-.table img{
-    float: right;
+.table {
     height: 150px;
     width: 350px;
+    border:15px;
+    border-color: slategrey;
 }
-           
-.footer {
+
+
+
+/*3rd section - footer*/
+footer {
     display: inline-block
 }
+
 li {
-    display: inline;
-    padding: 10px;
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: 0 50px 70px 0;
+    text-align: center;
+    padding: auto;
 }
