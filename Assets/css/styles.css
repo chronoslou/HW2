@@ -12,10 +12,32 @@ body {
 h1 {
     font-size: 45px;
 }
+.devname { 
+    position:relative;
+    top:50px;
+}
 h4 {
     margin-top: 10px;
 }
-
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
 
 /* Nav Bar styling */
 header {
@@ -23,7 +45,7 @@ header {
     list-style: none;
     font-weight: bold;
     width: 100%;
-    background-color: #464646;
+    background-color: darkgray;
     height:80px;  
 }
 header h1 {
@@ -44,7 +66,7 @@ nav ul {
     white-space: nowrap;
     max-width: 1000px;
     margin: 0 50px 70px 0;
-    text-align: center;
+    text-align: right;
     padding: auto;
 }
 
@@ -81,7 +103,7 @@ aside {
   /*Basic styling for images*/
 article {
     float: right;
-    border: darkslategray 5px;
+    border: darkslategray 10px;
     width: 70%;
     line-height: 20px;
     margin-top: 10px;
@@ -97,16 +119,34 @@ article {
     height: 150px;
     width: 350px;
     border:15px;
-    border-color: slategrey;
+    border-color:darkblue;
 }
-
+.image3, .image4, .image5, .image6 {
+    height: 150px;
+    width: 400px;
+    border: 15px;
+    border-color: darkslategrey;
+    size:cover;
+    min-height:150px;
+}
+.image6 {
+    float: right;
+    position: relative;
+}
 
 
 /*3rd section - footer*/
-footer {
+.footer {
     display: inline-block
 }
+article .line{
+    white-space: nowrap;
+    max-width: 1000px;
+    margin: 0 50px 70px 0;
+    text-align: right;
+    padding: auto;
 
+}
 li {
     white-space: nowrap;
     max-width: 1000px;
